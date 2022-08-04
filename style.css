@@ -1,0 +1,142 @@
+*
+    {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+html
+    {
+        font-size: 62.5%;
+    }
+:root
+    {
+        --blue-facebook: #1877f2;
+        --green-button: #42b72a; 
+        --background-color: #f0f2f5; 
+        ---walter: #ffffff;
+        --gray-letters: #90949c;
+        --black: #000;
+    }
+body
+    {
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 1.6rem;
+        background-color: var(--background-color);
+    }
+main
+    {
+        display: flex;
+        margin: 0 auto;
+    }
+main .left-section
+    {
+        display: flex;
+    }
+main .left-section .left-section-container
+    {
+        align-self: center;
+        margin-left: 12rem;
+        margin-top: 6rem;
+    }
+main .left-section .left-section__img img
+    {
+        height: 10rem;
+        width: 30rem;
+        bottom: 8rem;
+        position: relative;
+    }
+main .left-section .left-section-container .left-section__subtitle
+    {
+        text-align: left;
+        font-weight: 400;
+        font-size: 2.4rem;
+        position: relative;
+        bottom: 9rem;
+        left: 3.5rem;
+    }
+main .right-section
+    {
+        width: 50%;
+        height: 100vh;
+    }
+main .right-section .right-section-content .right-section__form
+    {
+        width: 39.6rem;
+        height: 34rem;
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 16rem;
+        margin-top: 14rem;
+        border-radius: 0.6rem;
+        align-items: center;
+        box-shadow: #90949c 0 0 1rem 0;
+    }
+main .right-section .right-section-content .right-section__form .input
+    {
+        width: 36rem;
+        height: 5rem;
+        margin: 1rem;
+        border-radius: 0.8rem;
+        border: solid 0.1rem #dddfe2;
+        padding: 1rem;
+        font-size: 1.6rem;
+    }
+main .right-section .right-section-content .right-section__form .email-input .password-input
+    {
+        cursor: cell;
+    }
+main .right-section .right-section-content .right-section__form .login-input
+        {
+            color: #ffffff;
+            background-color: var(--blue-facebook);
+            font-size: 2.4rem;
+            font-weight: bold;
+            cursor: pointer;
+        }
+main .right-section .right-section-content .right-section__form a
+        {
+            font-size: 1.4rem;
+            color: var(--blue-facebook);
+            text-decoration: none;
+            margin: 1rem;
+        }
+main .right-section .right-section-content .right-section__form a:hover
+        {
+            text-decoration: underline;
+        }
+main .right-section .right-section-content .right-section__form .the-line
+        {
+            width: 36rem;
+            margin-top: 0.6rem;
+            border-top: solid #dadde1 0.1rem;
+        }
+main .right-section .right-section-content .right-section__form .new-account-login
+        {
+            background-color: var(--green-button);
+            width: 20rem;
+            color: var(---walter);
+            font-size: 1.7rem;
+            font-weight: bolder;
+            margin-top: 2rem;
+            cursor: pointer;
+        }
+main .right-section p
+        {
+            text-align: center;
+            margin-top: 4rem;
+            position: relative;
+            left: 1.4rem;
+        }
+main .right-section p a
+        {
+            text-decoration: none;
+            color: #000;
+            font-weight: bolder;
+            font-size: 1.4rem;
+        }
+main .right-section p a:hover
+        {
+            text-decoration: underline;
+        }
